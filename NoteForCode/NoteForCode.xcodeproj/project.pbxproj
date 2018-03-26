@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3407D04F205A3BAA00FFC91B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3407D04E205A3BAA00FFC91B /* UIKit.framework */; };
+		3407D052205BA76300FFC91B /* RunLoopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407D051205BA76300FFC91B /* RunLoopTest.m */; };
+		3469186920615A7700044196 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469186820615A7700044196 /* NotificationTest.m */; };
+		3469186C20622F4400044196 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469186B20622F4400044196 /* GCDTest.m */; };
+		3469186F20637FB100044196 /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469186E20637FB100044196 /* RuntimeTest.m */; };
+		3469187220674A6400044196 /* CacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469187120674A6400044196 /* CacheTest.m */; };
+		34691875206772D800044196 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34691874206772D700044196 /* test.jpeg */; };
+		3469187820689A7100044196 /* CollectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469187720689A7100044196 /* CollectionTest.m */; };
+		3469187C2068C37200044196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3469187B2068C37200044196 /* Images.xcassets */; };
 		34E7E6612057A6CB003EC3F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E7E6602057A6CB003EC3F7 /* AppDelegate.m */; };
 		34E7E6642057A6CB003EC3F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E7E6632057A6CB003EC3F7 /* ViewController.m */; };
 		34E7E6672057A6CB003EC3F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E7E6652057A6CB003EC3F7 /* Main.storyboard */; };
@@ -18,6 +27,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3407D04E205A3BAA00FFC91B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3407D050205BA76300FFC91B /* RunLoopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTest.h; sourceTree = "<group>"; };
+		3407D051205BA76300FFC91B /* RunLoopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTest.m; sourceTree = "<group>"; };
+		3469186720615A7700044196 /* NotificationTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationTest.h; sourceTree = "<group>"; };
+		3469186820615A7700044196 /* NotificationTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationTest.m; sourceTree = "<group>"; };
+		3469186A20622F4400044196 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
+		3469186B20622F4400044196 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
+		3469186D20637FB100044196 /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
+		3469186E20637FB100044196 /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
+		3469187020674A6400044196 /* CacheTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheTest.h; sourceTree = "<group>"; };
+		3469187120674A6400044196 /* CacheTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheTest.m; sourceTree = "<group>"; };
+		3469187320674A9200044196 /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		34691874206772D700044196 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		3469187620689A7100044196 /* CollectionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionTest.h; sourceTree = "<group>"; };
+		3469187720689A7100044196 /* CollectionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTest.m; sourceTree = "<group>"; };
+		3469187B2068C37200044196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34E7E65C2057A6CB003EC3F7 /* NoteForCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteForCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E7E65F2057A6CB003EC3F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34E7E6602057A6CB003EC3F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3407D04F205A3BAA00FFC91B /* UIKit.framework in Frameworks */,
 				99DBFFF4F98B13D00C472629 /* libPods-NoteForCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +73,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3407D056205BD24D00FFC91B /* CF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CF;
+			sourceTree = "<group>";
+		};
 		34E7E6532057A6CB003EC3F7 = {
 			isa = PBXGroup;
 			children = (
@@ -68,17 +101,33 @@
 		34E7E65E2057A6CB003EC3F7 /* NoteForCode */ = {
 			isa = PBXGroup;
 			children = (
+				3407D056205BD24D00FFC91B /* CF */,
 				34E7E65F2057A6CB003EC3F7 /* AppDelegate.h */,
 				34E7E6602057A6CB003EC3F7 /* AppDelegate.m */,
 				34E7E6622057A6CB003EC3F7 /* ViewController.h */,
 				34E7E6632057A6CB003EC3F7 /* ViewController.m */,
 				34E7E6652057A6CB003EC3F7 /* Main.storyboard */,
 				34E7E6682057A6CB003EC3F7 /* Assets.xcassets */,
+				34691874206772D700044196 /* test.jpeg */,
 				34E7E66A2057A6CB003EC3F7 /* LaunchScreen.storyboard */,
 				34E7E66D2057A6CB003EC3F7 /* Info.plist */,
 				34E7E66E2057A6CB003EC3F7 /* main.m */,
 				34E7E69820592687003EC3F7 /* BlockTest.h */,
 				34E7E69920592687003EC3F7 /* BlockTest.m */,
+				3407D050205BA76300FFC91B /* RunLoopTest.h */,
+				3407D051205BA76300FFC91B /* RunLoopTest.m */,
+				3469186720615A7700044196 /* NotificationTest.h */,
+				3469186820615A7700044196 /* NotificationTest.m */,
+				3469186A20622F4400044196 /* GCDTest.h */,
+				3469186B20622F4400044196 /* GCDTest.m */,
+				3469186D20637FB100044196 /* RuntimeTest.h */,
+				3469186E20637FB100044196 /* RuntimeTest.m */,
+				3469187020674A6400044196 /* CacheTest.h */,
+				3469187120674A6400044196 /* CacheTest.m */,
+				3469187320674A9200044196 /* TestProtocol.h */,
+				3469187620689A7100044196 /* CollectionTest.h */,
+				3469187720689A7100044196 /* CollectionTest.m */,
+				3469187B2068C37200044196 /* Images.xcassets */,
 			);
 			path = NoteForCode;
 			sourceTree = "<group>";
@@ -95,6 +144,7 @@
 		B790FB13BD6253ACF649B71C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3407D04E205A3BAA00FFC91B /* UIKit.framework */,
 				3BB20592EA76DF688AC38021 /* libPods-NoteForCode.a */,
 			);
 			name = Frameworks;
@@ -162,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E7E66C2057A6CB003EC3F7 /* LaunchScreen.storyboard in Resources */,
+				3469187C2068C37200044196 /* Images.xcassets in Resources */,
 				34E7E6692057A6CB003EC3F7 /* Assets.xcassets in Resources */,
+				34691875206772D800044196 /* test.jpeg in Resources */,
 				34E7E6672057A6CB003EC3F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3407D052205BA76300FFC91B /* RunLoopTest.m in Sources */,
+				3469187220674A6400044196 /* CacheTest.m in Sources */,
+				3469186C20622F4400044196 /* GCDTest.m in Sources */,
 				34E7E6642057A6CB003EC3F7 /* ViewController.m in Sources */,
+				3469186920615A7700044196 /* NotificationTest.m in Sources */,
+				3469186F20637FB100044196 /* RuntimeTest.m in Sources */,
 				34E7E69A20592687003EC3F7 /* BlockTest.m in Sources */,
+				3469187820689A7100044196 /* CollectionTest.m in Sources */,
 				34E7E66F2057A6CB003EC3F7 /* main.m in Sources */,
 				34E7E6612057A6CB003EC3F7 /* AppDelegate.m in Sources */,
 			);
@@ -363,6 +421,7 @@
 			baseConfigurationReference = 7AE6992C570CABF11F092BD6 /* Pods-NoteForCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WAQCR4UC3;
 				INFOPLIST_FILE = NoteForCode/Info.plist;
@@ -379,6 +438,7 @@
 			baseConfigurationReference = A8A403088ED8C012DCC8B327 /* Pods-NoteForCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WAQCR4UC3;
 				INFOPLIST_FILE = NoteForCode/Info.plist;

@@ -125,4 +125,7 @@ id getBlockArray()
     }
     return self;
 }
+- (void)run {
+    
+}
 @end
