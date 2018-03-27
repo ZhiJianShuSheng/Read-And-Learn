@@ -195,5 +195,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "543833833.917284"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
+            landmarkName = "-requestBySerializingRequest:withParameters:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]"
+                  moduleName = "NoteForCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/instanza/Doc/MyGitHub/Read-And-Learn/NoteForCode/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "543833834.235719"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "475"
+                  endingLineNumber = "475"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke"
+                  moduleName = "NoteForCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/instanza/Doc/MyGitHub/Read-And-Learn/NoteForCode/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "543833834.237215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "475"
+                  endingLineNumber = "475"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

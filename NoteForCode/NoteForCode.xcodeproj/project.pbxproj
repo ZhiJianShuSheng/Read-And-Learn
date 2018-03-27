@@ -16,6 +16,7 @@
 		34691875206772D800044196 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34691874206772D700044196 /* test.jpeg */; };
 		3469187820689A7100044196 /* CollectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3469187720689A7100044196 /* CollectionTest.m */; };
 		3469187C2068C37200044196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3469187B2068C37200044196 /* Images.xcassets */; };
+		34691883206A3DC600044196 /* AFNetworkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34691882206A3DC600044196 /* AFNetworkingTest.m */; };
 		34E7E6612057A6CB003EC3F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E7E6602057A6CB003EC3F7 /* AppDelegate.m */; };
 		34E7E6642057A6CB003EC3F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E7E6632057A6CB003EC3F7 /* ViewController.m */; };
 		34E7E6672057A6CB003EC3F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E7E6652057A6CB003EC3F7 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 		3469187620689A7100044196 /* CollectionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionTest.h; sourceTree = "<group>"; };
 		3469187720689A7100044196 /* CollectionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTest.m; sourceTree = "<group>"; };
 		3469187B2068C37200044196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34691881206A3DC600044196 /* AFNetworkingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingTest.h; sourceTree = "<group>"; };
+		34691882206A3DC600044196 /* AFNetworkingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTest.m; sourceTree = "<group>"; };
 		34E7E65C2057A6CB003EC3F7 /* NoteForCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteForCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E7E65F2057A6CB003EC3F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34E7E6602057A6CB003EC3F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,15 @@
 			path = CF;
 			sourceTree = "<group>";
 		};
+		3469187E206A3D6B00044196 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				34691881206A3DC600044196 /* AFNetworkingTest.h */,
+				34691882206A3DC600044196 /* AFNetworkingTest.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		34E7E6532057A6CB003EC3F7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		34E7E65E2057A6CB003EC3F7 /* NoteForCode */ = {
 			isa = PBXGroup;
 			children = (
+				3469187E206A3D6B00044196 /* Vendor */,
 				3407D056205BD24D00FFC91B /* CF */,
 				34E7E65F2057A6CB003EC3F7 /* AppDelegate.h */,
 				34E7E6602057A6CB003EC3F7 /* AppDelegate.m */,
@@ -286,6 +299,7 @@
 				34E7E69A20592687003EC3F7 /* BlockTest.m in Sources */,
 				3469187820689A7100044196 /* CollectionTest.m in Sources */,
 				34E7E66F2057A6CB003EC3F7 /* main.m in Sources */,
+				34691883206A3DC600044196 /* AFNetworkingTest.m in Sources */,
 				34E7E6612057A6CB003EC3F7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +435,6 @@
 			baseConfigurationReference = 7AE6992C570CABF11F092BD6 /* Pods-NoteForCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WAQCR4UC3;
 				INFOPLIST_FILE = NoteForCode/Info.plist;
@@ -438,7 +451,6 @@
 			baseConfigurationReference = A8A403088ED8C012DCC8B327 /* Pods-NoteForCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WAQCR4UC3;
 				INFOPLIST_FILE = NoteForCode/Info.plist;

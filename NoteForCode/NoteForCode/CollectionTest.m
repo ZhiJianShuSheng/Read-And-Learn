@@ -62,19 +62,9 @@
         [mArray addObject:obj];
     }
     [self log:@"NSMutableArray Add Obj" time:CFAbsoluteTimeGetCurrent() - mArrayDuration];
-    
-    
-  
-   
-//    NSEnumerator *enumerator = set.objectEnumerator;
-//    NSString *setValue = enumerator.nextObject;
-//    while (setValue) {
-//        NSLog(@"%@",setValue);
-//        setValue = enumerator.nextObject;
-//    }
 }
+
 - (void)log:(NSString *)operator time:(NSTimeInterval)time {
     NSLog(@"%@ Cost Time:%f",operator, CFAbsoluteTimeGetCurrent() - time);
-
 }
 @end
